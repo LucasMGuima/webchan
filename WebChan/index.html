@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WebChan prototipe</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/WebChan.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+	<div id="principal"><!-- Começo principal -->
+		<div id="logo">
+			<h1>Web-chan prototipe</h1>
+			<p id="by">by LucasMGuima</p>
+		</div>
+		
+		<div id="timeBck"><!-- Começo block de tempo -->
+		
+			<div id="hora"></div>
+			<div id="timer"><p id="relogio">HORA: 00:00:00</p></div>
+			<div id="menu">
+				<p>TEMPORIZADOR</p>
+				
+				<label for="msgTimer">Mensagem de aviso:</label><br>
+				<input id="msgTimer" type="text" value="Hello There"><br>
+				
+				<label for="tempoTimer">Tempo de espera em horas:</label><br>
+				<input id="tempoTimer" type="number" value="2"><br>
+				
+				<input id="startTimer" class="bt" type="button" value="Start" onclick="starTimer()">
+				<input id="stopTimer" class="bt" type="button" value="Stop" onclick="stopTimer()">
+			</div>
+			
+		</div><!-- Fim block de tempo -->
+
+		<div id="fala"></div>
+	</div><!-- Fim principal -->
+</body>
+</html>

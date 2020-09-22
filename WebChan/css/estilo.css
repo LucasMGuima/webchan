@@ -1,0 +1,28 @@
+body{
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#by{
+	font-style: italic;
+}
+
+#principal {
+	width: 1080px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#menu{
+	margin: auto;
+	padding: 10px;
+	display: inline-block;
+}
+
+#menu input.bt {
+	display: block;
+	margin: 10px auto;
+}
+
+#timer {
+	margin: 10px;
+}
